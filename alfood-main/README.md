@@ -2,7 +2,10 @@
 
 # Alfood
 
-Executar Api em http://localhost:8000/
+Executar Api:
+    - em restaurantes_api-master executar docker-compose build
+    - em restaurantes_api-master executar docker-compose up
+    - será executada em http://localhost:8000/
 
 O Alfood é um site que lista restaurantes e pratos do menu. 
 É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
@@ -14,6 +17,7 @@ O Alfood é um site que lista restaurantes e pratos do menu.
 
 O Alfood começa com uma listagem estática de seu conteúdo e é esse o problema que queremos resolver.
 No decorrer do curso, vamos implementar toda a camada de comunicação com a API.
+Com funcionalidades de busca ordenação, paginação
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
